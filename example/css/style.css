@@ -1,0 +1,23 @@
+.page {
+    display    : block;
+    margin     : 0;
+    padding    : 0;
+    background : url("../images/grid.png") 0 repeat;
+}
+
+.page__section {
+    display : block;
+    margin  : 0 0 20px;
+    padding : 0;
+}
+
+.image {
+    display : inline-block;
+    margin  : 0;
+    padding : 0;
+    border  : 0;
+}
+
+.image + .image {
+    margin-left : 20px;
+}

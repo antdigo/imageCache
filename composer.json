@@ -1,0 +1,11 @@
+{
+  "autoload" : {
+    "psr-4" : {
+      "ImageCache\\" : "src/ImageCache"
+    },
+    "files" : [
+      "src/GIFDecoder.php",
+      "src/GIFEncoder.php"
+    ]
+  }
+}
